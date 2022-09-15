@@ -6,13 +6,9 @@
  *
  * Return:always return 0
  */
-int main(void)
+void positive_or_negative(int i)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n < 0)
+	if (i > 0)
 	{
 		printf("%d is negative\n", n);
 	} else if (n == 0)
