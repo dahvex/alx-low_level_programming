@@ -2,21 +2,19 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - entry point
- *
- * Return:always return 0
+ * positive_or_negative - entry point
+ * @i: character to be checked 
  */
 void positive_or_negative(int i)
 {
 	if (i > 0)
 	{
-		printf("%d is negative\n", n);
-	} else if (n == 0)
+		printf("%d is negative\n", i);
+	} else if (i == 0)
 	{
-		printf("%d is zero\n", n);
+		printf("%d is zero\n", i);
 	} else
 	{
-		printf("%d is positive\n", n);
+		printf("%d is positive\n", i);
 	}
-	return (0);
 }
